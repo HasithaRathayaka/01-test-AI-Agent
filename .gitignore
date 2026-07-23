@@ -1,0 +1,21 @@
+# Environment variables (API Keys) - NEVER COMMIT
+.env
+.env.local
+*.env
+
+# Python Virtual Environment & Bytecode
+venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Research outputs
+research_outputs/*.txt
+!research_outputs/.gitkeep
+
+# IDE / System
+.vscode/
+.idea/
+.DS_Store
