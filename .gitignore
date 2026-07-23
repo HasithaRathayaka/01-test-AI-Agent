@@ -3,6 +3,9 @@
 .env.local
 *.env
 
+# Internal documentation
+context.md
+
 # Python Virtual Environment & Bytecode
 venv/
 ENV/
